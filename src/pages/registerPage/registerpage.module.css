@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Annapurna+SIL:wght@400;700&family=Playfair+Display:ital@1&display=swap');
+
+.fonts{
+  font-family: 'AnnapurnaSIL, sans-serif';
+}
+.myelement {
+  filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.2));
+  height: 55px;
+  width: 240px;
+}
+.registerpage{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-image: url('../../assets/backGround.svg');
+}
+.inputclass{
+    margin: 2rem auto;
+    padding: 1rem;
+    width: 90%;
+    max-width: 40rem;
+  }
+  
+  .input label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .input input {
+    font: inherit;
+    display: block;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 0.15rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .input input:focus {
+    outline: none;
+    border-color: #4f005f;
+  }
+  
